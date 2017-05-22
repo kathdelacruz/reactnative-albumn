@@ -9,7 +9,7 @@ import Header from './src/components/header';
 export default class albums extends Component {
   render() {
     return (
-      <Header />
+      <Header headerText={'Albums'} />
     );
   }
 }
